@@ -1,0 +1,805 @@
+    1  ls
+    2  mkdir main 
+    3  cd main
+    4  git clone https://github.com/ang3lino/linConfig
+    5  cd linConfig/
+    6  ls
+    7  cd kde_neon/
+    8  ls
+    9  cat config.sh 
+   10  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+   11  sh ~/.vim_runtime/install_awesome_vimrc.sh
+   12  vim
+   13  ls
+   14  vim my_configs.vim 
+   15  cp my_configs.vim ~/.vim_runtime/my_configs.vim
+   16  ls
+   17  cd ../../
+   18  ls
+   19  ifconfig
+   20  ls
+   21  cdls
+   22  mkdir git
+   23  mv linConfig/ git
+   24  ls
+   25  mkdir scripts
+   26  cd scripts/
+   27  ls
+   28  vim v4.sh
+   29  ls
+   30  chmod 755 v4.sh 
+   31  ls
+   32  ./v4.sh 
+   33  vim v4.sh 
+   34  ./v4.sh 
+   35  vim v4.sh 
+   36  ls
+   37  vim v4.sh 
+   38  ./v4.sh 
+   39  vim v4.sh 
+   40  ./v4.sh 
+   41  vim v4.sh 
+   42  ./v4.sh 
+   43  vim v4.sh 
+   44  ./v`
+   45  ./v4.sh 
+   46  vim v4.sh 
+   47  ./v4.sh 
+   48  pwd | basename
+   49  pwd | basename --input
+   50  basename
+   51  basename --info
+   52  basename --help
+   53  ls
+   54  vim v4.sh 
+   55  ./v4.sh 
+   56  vim v4.sh 
+   57  ./v4.sh 
+   58  vim v4.sh 
+   59  ./v4.sh 
+   60  ls
+   61  vim v4.sh 
+   62  ./v4.sh 
+   63  vim v4.sh 
+   64  ./v4.sh 
+   65  vim v4.sh 
+   66  ./v4.sh 
+   67  vim v4.sh 
+   68  ./v4.sh 
+   69  vim v4.sh 
+   70  ./v4.sh 
+   71  vim v4.sh 
+   72  ./v4.sh 
+   73  ls v4.sh 
+   74  vim v4.sh 
+   75  ls
+   76  cp v4.sh v3.sh
+   77  vi v3.sh 
+   78  ./v3.sh 
+   79  ls
+   80  vim v
+   81  vi v3.sh 
+   82  ./v
+   83  ./v3.sh 
+   84  vim v3.sh 
+   85  ./v3.sh 
+   86  vim v3.sh 
+   87  ./v3.sh 
+   88  vim v3.sh 
+   89  ./v3.sh 
+   90  vim v3.sh 
+   91  ./v3.sh 
+   92  vim v3.sh 
+   93  ./v3.sh 
+   94  vim v3.sh 
+   95  .v3
+   96  ./v3.sh 
+   97  vim v3.sh 
+   98  ./v3.sh 
+   99  vim v3.sh 
+  100  ./v
+  101  ./v3.sh 
+  102  vim v3.sh 
+  103  vim v4.sh
+  104  ./v4.sh 
+  105  vim v4.sh 
+  106  ./v4.sh 
+  107  vim v4.sh 
+  108  ./v4.sh 
+  109  vim v4.sh 
+  110  $HOME/*
+  111  ls $HOME/*
+  112  cat v4.sh 
+  113  ls
+  114  vim v1.sh
+  115  vim f6.sh
+  116  ls
+  117  vim v4.sh
+  118  cp v4.sh v4_2.sh
+  119  vim v4_2.sh 
+  120  ./v4_2.sh 
+  121  ls
+  122  vim v4.sh 
+  123  vim v4_2.sh 
+  124  ./v4_2.sh 
+  125  vim v4_2.sh 
+  126  ls
+  127  shutdown now
+  128  exit
+  129  ls
+  130  cd main/asr
+  131  ls
+  132  cd main
+  133  ls
+  134  cd scripts/
+  135  ls
+  136  vi test.sh
+  137  who
+  138  ls
+  139  vi ec1.sh
+  140  ls
+  141  chmod 755 *\.sh
+  142  ./ec1.sh 
+  143  vim ec1.sh 
+  144  ./ec1.sh 
+  145  ./ec1.sh 1 2
+  146  cp ec1.sh ec2.sh
+  147  vim ec2.sh 
+  148  ./ec2.sh 
+  149  ./ec2.sh 1 3
+  150  who
+  151  ls
+  152  vim f6.sh 
+  153  cat f6.sh
+  154  vi ec3.sh
+  155  cat f6.sh
+  156  chmod 755 *\.sh
+  157  ./ec3.sh 
+  158  ./ec3.sh f
+  159  ./ec3.sh f6.sh
+  160  htop
+  161  cat ec2.sh
+  162  cp ec2.sh ec3.sh
+  163  ls
+  164  ls | wc
+  165  vim test.sh
+  166  man while
+  167  help while
+  168  chmod 755 *\.sh
+  169  ./test.sh 
+  170  vim test.sh 
+  171  ./test.sh 
+  172  ./test.sh root
+  173  vim test.sh 
+  174  ls
+  175  ls -d
+  176  ls -f
+  177  mkdir folder{1..5}
+  178  ls
+  179  ls -d
+  180  ls -d ./*
+  181  ls -d *
+  182  ls -r
+  183  ls -d */
+  184  cat ec3.sh 
+  185  cp ec3.sh ec4.sh
+  186  vim ec4.sh
+  187  ls
+  188  cd folder1
+  189  mkdir subfolder{1..8}
+  190  cd ../
+  191  cd folder1
+  192  ls
+  193  touch file{1..8}.txt
+  194  ls
+  195  cd ../
+  196  ls
+  197  ls -d folder1
+  198  ls -d folder1/*
+  199  ls -d /folder1/*
+  200  ls -d ./folder1/*/
+  201  ls
+  202  vim ec4.sh
+  203  chmod 755 *\.sh
+  204  ./ec4.sh 
+  205  ./ec4.sh folder1
+  206  cat ec4.sh
+  207  ls -f ./$DIR/*/ | wc | awk '{print $1}'
+  208  ls -f ./folder1/*/ | wc | awk '{print $1}'
+  209  ls folder1
+  210  ls -l
+  211  ls -f
+  212  man ls
+  213  ls -l
+  214  cp ec4.sh ec5.sh
+  215  vim ec5.sh
+  216  chmod 755 *\.sh
+  217  ./ec5.sh 
+  218  ./ec5.sh folder1
+  219  vim ec5.sh
+  220  ./ec5.sh
+  221  ./ec5.sh folder1.sh
+  222  ./ec5.sh folder1
+  223  ls
+  224  cat ec4.sh
+  225  echo $HOME
+  226  cp ec4.sh ec5.sh
+  227  vim ec5.sh
+  228  ls
+  229  cat ec5.sh
+  230  vim ec5.sh
+  231  ./ec5.sh folder1
+  232  cp ec5.sh ec6.sh
+  233  vim ec6.sh
+  234  ./ec6.sh
+  235  vim ec6.sh
+  236  ls *.txt
+  237  ls
+  238  cd main
+  239  ls
+  240  cd scripts/
+  241  ls
+  242  vi ec6.sh 
+  243  cp ec5.sh wer.sh
+  244  vi wer.sh 
+  245  time
+  246  bash -c "echo hola"
+  247  vim wer.sh 
+  248  ls
+  249  cat wer.sh
+  250  dirname f6.sh
+  251  pwd
+  252  ls
+  253  basename f6.sh
+  254  ls -l
+  255  vi wer.sh 
+  256  ls /dev
+  257  pushd .
+  258  cat /dev/zero
+  259  ls -l
+  260  ls
+  261  pwd
+  262  *
+  263  vim test.sh 
+  264  ./test.sh 
+  265  vim test.sh 
+  266  ./test.sh 
+  267  ps
+  268  ps -aux
+  269  sl
+  270  man wc
+  271  sl
+  272  ls
+  273  cd main
+  274  ls
+  275  cd scripts/
+  276  ls
+  277  mkdir gestionRecursos
+  278  mv 3.1sistemaFicheros/ gestionRecursos/
+  279  ls
+  280  cd gestionRecursos/
+  281  ls
+  282  cd 3.1sistemaFicheros/
+  283  ls
+  284  ifconfig
+  285  ls
+  286  vi 2.sh
+  287  ls -l
+  288  ls -l | tail --lines=2
+  289  ls -l | tail --lines=2 | awk '{print $1}'
+  290  touch packages.txt
+  291  stat packages.txt 
+  292  stat
+  293  stat *
+  294  man stat
+  295  stat -c "%a" packages.txt
+  296  ls -l packages.txt 
+  297  vi 2.sh
+  298  stat -c "%A %U" *
+  299  vi 2.sh
+  300  man stat
+  301  stat -c "%A %U" *
+  302  stat -c "%A %n"
+  303  stat -c "%A %n" *
+  304  vi 2.sh
+  305  sh 2.sh 
+  306  ls -l | tail --lines=2 | awk '{print $1}'
+  307  ls -l | tail --lines=2 | awk '{print $1}' | cut -c3
+  308  vi 2.sh
+  309  cut -c3 abcdef
+  310  abcdef | cut -c3
+  311  man cut
+  312  echo "abcdef" | cut -c3
+  313  vi 2.sh
+  314  sh 2.sh 
+  315  vi 2.sh
+  316  sh 2.sh 
+  317  vi 2.sh
+  318  sh 2.sh 
+  319  vi 2.sh
+  320  sh 2.sh 
+  321  vi 2.sh
+  322  sh 2.sh 
+  323  vi 2.sh
+  324  sh 2.sh 
+  325  man test
+  326  vi 2.sh
+  327  sh 2.sh
+  328  ls -l
+  329  ls
+  330  today
+  331  date
+  332  stat packages
+  333  stat packages packages.txt 
+  334  stat packages.txt 
+  335  man find
+  336  sudo
+  337  find / -ctime 1
+  338  su
+  339  ls
+  340  ls -l
+  341  man ls
+  342  ls -s
+  343  ls -ls
+  344  ls
+  345  mkdir dir
+  346  touch dir/{file{1..19}.txt
+  347  ls -R
+  348  ls -Rl
+  349  ls -R
+  350  hist
+  351  history
+  352  ls
+  353  vi 3.sh
+  354  ls
+  355  vi 4.sh
+  356  cp 4.sh {5..13}.sh
+  357  ls
+  358  ls -l
+  359  vi 3.sh
+  360  vi 4.sh
+  361  cp 4.sh 5.sh
+  362  man find
+  363  vi 4.sh
+  364  ls
+  365  cd dir
+  366  ls
+  367  rm *
+  368  touch file{1..9}.txt
+  369  ls
+  370  mkdir subdir1
+  371  touch subdir1/sd1file{1..9}.txt
+  372  cd ..
+  373  ls
+  374  vi 4.sh
+  375  du .
+  376  ls
+  377  sh 5.sh
+  378  sh 4.sh
+  379  vi 4.sh
+  380  sh 4.sh
+  381  set -A arr
+  382  vi 4.sh
+  383  sh 4.sh 
+  384  declare -A arr
+  385  sh -c "declare -A arr"
+  386  sh -c "arr=()"
+  387  man sh
+  388  ls /dev/
+  389  ls /dev/db*
+  390  ls /dev/sd*
+  391  echo garrano jauregiu haizea
+  392  ls
+  393  echo garrano jauregiu haizea
+  394  ls
+  395  apt update
+  396  sudo apt update
+  397  ls -l /dev/sd*
+  398  grid
+  399  htop
+  400  ls
+  401  cd main
+  402  ls
+  403  ls git
+  404  ls scripts
+  405  ls
+  406  pwd
+  407  ls
+  408  cd scripts/
+  409  ls
+  410  cd gestionRecursos/
+  411  ls
+  412  mv 3.1sistemaFicheros/ 1SistemaDeFicheros
+  413  ls
+  414  cd ..
+  415  ls
+  416  cd gestionRecursos/
+  417  ls
+  418  cd 1SistemaDeFicheros/
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd bash/
+  425  ls
+  426  cd ..
+  427  ls
+  428  cd ..
+  429  ls
+  430  cd scripts/
+  431  ls
+  432  mv bash/ 2shell
+  433  mv gestionRecursos/ 3gestionRecursos
+  434  sl
+  435  ls
+  436  cd ..
+  437  ls
+  438  mv scripts/ mlnn
+  439  mv mlnn asr
+  440  cd asr
+  441  git init
+  442  git add .
+  443  git commit
+  444  git config --global user.email "sigma271@outlook.com"
+  445  git config --global user.name "ang3lino"
+  446  git commit
+  447  git commit -m "Starting repo"
+  448  git push
+  449  git commit
+  450  ls
+  451  git init
+  452  git add .
+  453  git add . com
+  454  git commit -m "Starting repo"
+  455  git push
+  456  git remote add asr https://github.com/Ang3lino/asr
+  457  git push asr
+  458  ls
+  459  cd ..
+  460  ls
+  461  mv asr/ asrtmp
+  462  git clone https://github.com/Ang3lino/asr
+  463  mv asrtmp/* asr
+  464  ls
+  465  cd asr
+  466  ls
+  467  git add .
+  468  git commit -m "Starting repo"
+  469  git push
+  470  ls
+  471  cd 3gestionRecursos/
+  472  ls
+  473  cd 1SistemaDeFicheros/
+  474  ls
+  475  cat 1.sh 
+  476  ls
+  477  vi 1.sh 
+  478  sudo sh 1.sh 
+  479  ls
+  480  sudo su
+  481  su -
+  482  ls
+  483  sudo 1.sh
+  484  chmod 755 1.sh
+  485  ls
+  486  ls /l
+  487  ls -l
+  488  ./1.sh 
+  489  cat 1.sh 
+  490  man test
+  491  vi tes
+  492  vi 1.sh 
+  493  ./1.sh 
+  494  ls
+  495  cat 1.sh 
+  496  id
+  497  echo $UID
+  498  test $UID 0
+  499  test $UID -ne 0
+  500  echo $?
+  501  test $UID -eq 0
+  502  echo $?
+  503  su -
+  504  vi 1.sh
+  505  ./1.sh 
+  506  cat 1.sh 
+  507  vi 1.sh 
+  508  chmod 755 *\.sh
+  509  ./1.sh 
+  510  vi 1.sh 
+  511  ./1.sh 
+  512  cat 1.sh 
+  513  ls
+  514  vi 1.sh 
+  515  ./1.sh 
+  516  ls
+  517  ls -l
+  518  vi 1.sh 
+  519  ./1.sh 
+  520  vi 1.sh 
+  521  ./1.sh 
+  522  vi 1.sh 
+  523  ./1.sh 
+  524  if [[ $UID != 0 ]] ; then echo 'No root' ; if
+  525  if [[ $UID != 0 ]] ; then echo 'No root' ; fi
+  526  vi 1.sh
+  527  ./1.sh 
+  528  ls
+  529  sh
+  530  ls
+  531  ls -R main/
+  532  ls main/
+  533  cd main/asr/
+  534  ls
+  535  cd 3gestionRecursos/
+  536  ls
+  537  cd 1SistemaDeFicheros/
+  538  ls
+  539  pwd
+  540  cd /home/user1/main/asr/3gestionRecursos/1SistemaDeFicheros
+  541  history
+  542  ls
+  543  cd 1.sh
+  544  vi 1.sh
+  545  ls
+  546  ifconfig
+  547  ls
+  548  ./1`
+  549  ./1.sh 
+  550  man test
+  551  echo $UID
+  552  ls
+  553  cat 1.sh 
+  554  ls
+  555  vi 1.sh 
+  556  ./1.sh 
+  557  cat 1.sh 
+  558  vi 1.sh
+  559  ./1
+  560  ./1.sh 
+  561  bash ./1.sh 
+  562  vi 1.sh 
+  563  ./1.sh 
+  564  vi 1.sh 
+  565  cat 1
+  566  ./1.sh 
+  567  ls
+  568  vi 1.sh 
+  569  vi 2.sh 
+  570  man stat
+  571  ls
+  572  cd ..
+  573  ls
+  574  echo 'https://egela.ehu.eus/pluginfile.php/2242944/mod_resource/content/124/html/exercises/ex3.html#exer-process-context' > urls.txt
+  575  ls
+  576  cat urls.txt 
+  577  cd 1
+  578  cd 1SistemaDeFicheros/
+  579  ls
+  580  sta
+  581  stat
+  582  stat *
+  583  ls
+  584  cat 2.sh 
+  585  stat -c "%A %n"
+  586  stat -c "%A %n" *
+  587  man stat
+  588  stat -c "%a %n" *
+  589  ls
+  590  cat 2.sh 
+  591  vi 3.sh
+  592  cat 3.sh
+  593  find / -ctime
+  594  find . -ctime 1
+  595  find $(pwd) -ctime 1
+  596  find / -ctime 1
+  597  echo find / -ctime 1
+  598  locate userdel
+  599  ls
+  600  cat 3.sh 
+  601  ls
+  602  cat 4.sh 
+  603  ls
+  604  cat 2.sh 
+  605  stat -c "%A %n"
+  606  stat -c "%A %n" *
+  607  stat -c "%A %n" * | grep -rw*
+  608  stat -c "%A %n" * | grep -rw
+  609  stat -c "%A %n" * | grep "-rw*"
+  610  ls
+  611  ls -l | grep sh
+  612  ls -l | grep \-rwx
+  613  ls -l | grep -rwx
+  614  ls -l | grep "-rwx"
+  615  ls -l | grep "rwx"
+  616  ls -l | grep "\-rwx"
+  617  ls -l | grep "\-rwx*"
+  618  ls -l | grep "\-_wx*"
+  619  ls -l | grep "\-.wx*"
+  620  cat 2.sh 
+  621  ls
+  622  chmod -w 3.sh
+  623  ls -l
+  624  ls -l | grep "\-.w*"
+  625  ls -l | grep "\-rwx*"
+  626  ls -l | grep "\-rwx.*"
+  627  ls -l
+  628  ls -l | grep "\-rw..*"
+  629  ls -l | grep "\-[rwx]w..*"
+  630  cat 2.sh
+  631  vi 2.sh
+  632  ls
+  633  cat ../urls.txt 
+  634  ls
+  635  stat -c "%s"
+  636  stat -c "%s" *
+  637  stat -c "%s %n" *
+  638  ls
+  639  vi 4.sh
+  640  man stat
+  641  vi 4.sh
+  642  ls -R
+  643  ls -Rl
+  644  man ls
+  645  ls -Rl | grep ".[r-][w-][x-]"
+  646  ls -Rls | grep ".[r-][w-][x-]"
+  647  ls -RlS | grep ".[r-][w-][x-]"
+  648  ls -Rls | grep ".[r-][w-][x-]"
+  649  ls -s
+  650  ls -ls
+  651  stat "%s"
+  652  stat "%s" *
+  653  stat "%s %n" *
+  654  ls
+  655  stat "%s %n" *
+  656  ls
+  657  cat 2.sh 
+  658  stat -c "%n %s"
+  659  stat -c "%n %s" *
+  660  man stat
+  661  man ls
+  662  ls
+  663  ls -h
+  664  ls -lh
+  665  ls -l --block-size=k
+  666  ls -l --block-size=m
+  667  ls -lhS
+  668  ls -lS
+  669  ls -ls
+  670  man ls
+  671  ls
+  672  cat 4.sh
+  673  vi 4.sh
+  674  ls -ln
+  675  find .
+  676  stat
+  677  man stat
+  678  ls
+  679  vi 4.sh
+  680  tree
+  681  xargs
+  682  man xargs
+  683  fd
+  684  ls
+  685  printf '1.sh'
+  686  ls 1.sh
+  687  ls -S 1.sh
+  688  ls -S 1.sh 
+  689  stat -c "%s %n" 1.sh
+  690  ls
+  691  stat -c "%s %n" weight.
+  692  stat -c "%s %n" weight.txt
+  693  ls
+  694  pwd
+  695  pwd 1.sh
+  696  ls
+  697  vi 3.sh
+  698  vi 4.sh
+  699  shopt
+  700  vi 4.sh
+  701  ls
+  702  cat 4.sh
+  703  chmod -w 3.sh
+  704  chmod 755 *\.sh
+  705  ls
+  706  history
+  707  history > hist.log
+  708  ls
+  709  vi 4.sh
+  710  ./4.sh
+  711  ls
+  712  cat 4.sh
+  713  vi 4.sh
+  714  ./4.sh
+  715  ls
+  716  pwd
+  717  ./4.sh /home/user1/main/asr/3gestionRecursos/1SistemaDeFicheros
+  718  vi 4.sh
+  719  ./4
+  720  ./4.sh
+  721  ls
+  722  cd ../../
+  723  ls
+  724  git add .
+  725  git commit -m "Archivos"
+  726  git push
+  727  ls
+  728  cd 3gestionRecursos/1SistemaDeFicheros/
+  729  ls
+  730  vi 4.sh
+  731  ls
+  732  ifconfig
+  733  shutdown
+  734  su -
+  735  ls
+  736  cd main
+  737  ls
+  738  cd git
+  739  ls
+  740  git clone https://github.com/ang3lino/asr
+  741  ls
+  742  cd asr
+  743  ls
+  744  cd 3gestionRecursos/
+  745  ls
+  746  blkid
+  747  cat /etc/fstab/
+  748  cat /etc/fstab
+  749  vfs
+  750  cat /etc/fstab | grep -v '#*'
+  751  cat /etc/fstab | grep -v '#'
+  752  man grep
+  753  echo sistemasficherosyusuarios
+  754  echo "$USER, $HOME, $PATH, $PWD, $SHELL, $TERM, $PS1"
+  755  echo "$USER, $HOME, $PATH, $PWD, $SHELL, $TERM, $PS1" | cut -d ','
+  756  echo "$USER, $HOME, $PATH, $PWD, $SHELL, $TERM, $PS1" | awd -F ','
+  757  echo "$USER, $HOME, $PATH, $PWD, $SHELL, $TERM, $PS1" | awk -F ','
+  758  man awk
+  759  ls -a
+  760  pushd .
+  761  showd
+  762  find / passwd
+  763  find -name='passwd' /
+  764  find --name='passwd' /
+  765  man find
+  766  find -name=passwd /
+  767  find / -name=passwd
+  768  man find
+  769  find / -name passwd
+  770  vi /etc/profile
+  771  man test
+  772  vi /etc/profile
+  773  cat ~/.bashrc
+  774  vi ~/.bashrc
+  775  history | grep vi
+  776  vi /etc/profile
+  777  id -u
+  778  whoami
+  779  ls /etc/profile.d/
+  780  vi /etc/profile.d/bash_completion.sh 
+  781  htop
+  782  man ls
+  783  ls -lf
+  784  ls -l
+  785  l
+  786  alias
+  787  ll
+  788  date
+  789  man date
+  790  date -u
+  791  locale
+  792  ps -l
+  793  ls
+  794  cat history
+  795  history
+  796  man
+  797  man man
+  798  man ls
+  799  ls
+  800  lslslsllslslsl
+  801  sl
+  802  ls /usr/share/man/
+  803  locale
+  804  ls
+  805  history > hist.txt
