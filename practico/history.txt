@@ -1,0 +1,113 @@
+    1  ls
+    2  sudo su -
+    3  sudo su
+    4  su -
+    5  sudo
+    6  sudo apt update
+    7  ls
+    8  sudo apt update
+    9  ls
+   10  ls -l
+   11  ifconfig
+   12  sudo ifconfig
+   13  ls
+   14  ifconfig
+   15  sudo ifconfig
+   16  ls
+   17  df -h
+   18  sudo fdisk /dev/sda
+   19  ls
+   20  sudo fdisk /dev/sdc
+   21  sudo apt install quota quotatool
+   22  sudo fdisk /dev/sdc
+   23  partprobe
+   24  sudo partprobe
+   25  mkdir home2
+   26  ls
+   27  vim /etc/fstab
+   28  sudo vim /etc/fstab
+   29  sudo fdisk -l /etc/fstab
+   30  mkfs.ext4 /dev/sdc1
+   31  sudo mkfs.ext4 /dev/sdc1
+   32  sudo reboot
+   33  quotacheck -avug /dev/sdc1
+   34  sudo quotacheck -avug /dev/sdc1
+   35  ls
+   36  df -h
+   37  quotacheck -avug /dev/sdc1
+   38  sudo quotacheck -avug /dev/sdc1
+   39  sudo apt install quotacheck
+   40  sudo quotacheck -avug /dev/sdc1
+   41  sudo mkfs.ext4 /dev/sdc1
+   42  ls
+   43  ls -l
+   44  sudo quotacheck -vug /dev/sdc1
+   45  cd /home
+   46  lsd
+   47  ls
+   48  quotacheck -cug /home2
+   49  sudo quotacheck -cug /home2
+   50  ls
+   51  ls /home2
+   52  adduser user2000
+   53  sudo adduser user2000
+   54  sudo useradd user2001
+   55  ls
+   56  ifconfig
+   57  sudo adduser 2001
+   58  history | tail
+   59  sudo adduser user2001
+   60  sudo deluser user2001
+   61  sudo adduser user2001
+   62  ls
+   63  ifconfig
+   64  sudo ifconfig
+   65  edquota -u user2000
+   66  sudo edquota -u user2000
+   67  sudo update-alternative --config edito
+   68  sudo update-alternative --config editor
+   69  sudo update-alternatives --config editor
+   70  sudo visudo
+   71  sudo edquota -u user2000
+   72  sudo edquota -u user2001
+   73  sudo edquota -u user2000
+   74  sudo quotaon /home2
+   75  su - user2000
+   76  ls
+   77  sudo edquota -u user2000
+   78  sudo quotaon /home2
+   79  ls
+   80  history | tail
+   81  ls
+   82  su - user2000
+   83  ls
+   84  su - user2001
+   85  ls
+   86  vi /etc/fstab
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd
+   91  ls
+   92  cd home
+   93  cd /home
+   94  ls
+   95  pwd
+   96  cd
+   97  cd ~
+   98  ls
+   99  mkdir git
+  100  cd git
+  101  ls
+  102  top
+  103  neofetch
+  104  ls
+  105  git clone https://github.com/ang3lino/asr
+  106  ls
+  107  cd asr
+  108  ls
+  109  mkdir practico
+  110  ls
+  111  cd practico/
+  112  ls
+  113  history > history.txt
