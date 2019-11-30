@@ -48,7 +48,31 @@ sudo chown user2:user2 Maildir/ -R
 # OK :D
 
 # boss, spamAssassin
+# https://www.digitalocean.com/community/tutorials/how-to-install-and-setup-spamassassin-on-ubuntu-12-04
 
 sudo apt install spamassassin spamc
 sudo groupadd spamd
+useradd -g spamd -s /bin/false -d /var/log/spamassassin spamd
+mkdir /var/log/spamassassin
+chown spamd:spamd /var/log/spamassassin
+
+sudo service spamassassin restart
+
+sudo vim /etc/postfix/master.cf
+# 
+# spamassassin unix -     n       n       -       -       pipe
+        user=spamd argv=/usr/bin/spamc -f -e  
+        /usr/sbin/sendmail -oi -f ${sender} ${recipient}
+sudo service postfix restart
+
+# testing 
+sudo vim /var/log/spamassassin/spamd.log
+
+
+
+
+
+
+#setting up spamAssassin
+
 
