@@ -46,3 +46,9 @@ sudo maildirmake Maildir/ -R
 sudo chown user2:user2 Maildir/ -R
 
 # OK :D
+
+# boss, spamAssassin
+
+sudo apt install spamassassin spamc
+sudo groupadd spamd
+
